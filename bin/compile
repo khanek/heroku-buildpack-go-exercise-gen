@@ -387,7 +387,7 @@ loadEnvDir "${env_dir}"
 setGitCredHelper "${env_dir}"
 trap clearGitCredHelper INT TERM EXIT
 
-FLAGS=(-tags heroku)
+FLAGS=(-tags "heroku,bindatafs")
 
 determineTool
 
